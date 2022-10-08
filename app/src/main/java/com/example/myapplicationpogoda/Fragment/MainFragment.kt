@@ -51,7 +51,7 @@ class MainFragment : Fragment() {
         checkPermission()
         init()
         updateCurrentCard()
-        requestWeatherData("Kazan")
+        requestWeatherData("Moscow")
     }
     private fun init() = with(binding) {
         val adapter = VpAdapter(activity as FragmentActivity,fList)
